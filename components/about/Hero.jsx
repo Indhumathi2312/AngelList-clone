@@ -18,7 +18,7 @@ export default function Hero() {
           </Link>
         </div>
         
-        <div className="w-full overflow-hidden pb-36 pt-16 md:pb-32 md:pt-24 lg:px-18">
+        <div className="w-full overflow-hidden pb-36 pt-16 md:pb-32 md:pt-24 lg:px-16">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 relative z-10">
             <div className="w-full aspect-[4/3] relative rounded-lg overflow-hidden shadow-xl transform transition-transform hover:-translate-y-2 hover:shadow-2xl group">
               <Image src="/images/about/hero-1.jpg" alt="Investors" fill className="object-cover transition-transform duration-500 group-hover:scale-105" />

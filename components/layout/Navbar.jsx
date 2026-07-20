@@ -21,7 +21,7 @@ export default function Navbar() {
     <header
       data-theme={isMobileMenuOpen ? 'light' : 'ink'}
       className={`sticky top-0 z-999 w-full transition-colors duration-300 ${isMobileMenuOpen
-          ? 'bg-white h-screen flex flex-col text-ink-1'
+          ? 'bg-white h-[calc(100vh)] md:h-fit flex flex-col text-ink-1'
           : 'bg-[#001D21] -mb-header h-header text-surface-text-primary'
         }`}
     >
@@ -92,15 +92,15 @@ export default function Navbar() {
                   </svg>
                 </button>
               ) : (
-                <Link key={index} href={item.href} className="flex justify-between items-center py-5 border-b border-gray-100 text-ink-1 hover:text-purple-700 transition-colors">
+                <Link key={index} href={item.href} onClick={() => setIsMobileMenuOpen(false)} className="flex justify-between items-center py-5 border-b border-gray-100 text-ink-1 hover:text-purple-700 transition-colors">
                   <span className="text-[1rem] font-medium tracking-[-0.002em]">{item.label}</span>
                 </Link>
               )
             ))}
           </nav>
           <div className="mt-auto pb-8 pt-4 flex flex-col md:flex-row gap-2 w-full">
-            <a href="https://venture.angellist.com/v/login" className="flex-1 bg-gray-200/60 text-ink-1 py-3 rounded-md text-center font-medium text-[1rem] transition hover:bg-gray-200">Sign in</a>
-            <Link href="/contact" className="flex-1 bg-purple-2 text-ink-1 py-3 rounded-md text-center font-medium text-[1rem] transition hover:bg-[#b0a8ff]">Contact sales</Link>
+            <a href="/login" onClick={() => setIsMobileMenuOpen(false)} className="flex-1 bg-gray-200/60 text-ink-1 py-3 rounded-md text-center font-medium text-[1rem] transition hover:bg-gray-200">Sign in</a>
+            <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)} className="flex-1 bg-purple-2 text-ink-1 py-3 rounded-md text-center font-medium text-[1rem] transition hover:bg-[#b0a8ff]">Contact sales</Link>
           </div>
         </div>
       )}
