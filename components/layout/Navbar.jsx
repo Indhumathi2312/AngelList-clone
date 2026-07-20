@@ -103,7 +103,7 @@ export default function Navbar() {
                 </svg>
               </button>
             </nav>
-            <div className="mt-auto pb-8 pt-4 flex gap-2 w-full">
+            <div className="mt-auto pb-8 pt-4 flex flex-col md:flex-row gap-2 w-full">
               <a href="https://venture.angellist.com/v/login" className="flex-1 bg-gray-200/60 text-ink-1 py-3 rounded-md text-center font-medium text-[1rem] transition hover:bg-gray-200">Sign in</a>
               <Link href="/contact" className="flex-1 bg-purple-2 text-ink-1 py-3 rounded-md text-center font-medium text-[1rem] transition hover:bg-[#b0a8ff]">Contact sales</Link>
             </div>
