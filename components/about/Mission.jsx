@@ -11,7 +11,7 @@ export default function Mission() {
             </h2>
           </div>
           
-          <div className="w-full flex-col gap-10 sm:flex-row grid sm:grid-cols-2 md:grid-cols-4 mt-8">
+          <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 mt-8">
             <div className="flex flex-col gap-2 md:border-l border-gray-200 md:pl-8">
               <span className="block text-5xl md:text-[4rem] font-medium text-[#001D21] tracking-tight">72k+</span>
               <span className="block text-gray-500 font-medium text-lg">Investors</span>
