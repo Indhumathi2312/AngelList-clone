@@ -4,6 +4,8 @@ import "../public/css/2lyuxktun1o1i.css";
 import "../public/css/2znmlrrza9r17.css";
 import "../public/css/26y1vzq3hske3.css";
 import "../public/css/12f17doq-i2ll.css";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 
 const angelList = localFont({
   src: [
@@ -46,7 +48,9 @@ export default function RootLayout({ children }) {
         <div hidden>
           {/* SVG definitions if any could go here */}
         </div>
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
