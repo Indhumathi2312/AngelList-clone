@@ -46,7 +46,7 @@ export default function CheckoutForm() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
             <label htmlFor="expiry" className="block text-sm font-medium text-gray-700 mb-1">Expiration date (MM/YY)</label>
             <input type="text" id="expiry" className="w-full rounded-md border border-gray-300 px-4 py-3 text-gray-900 focus:border-black focus:ring-black outline-none transition-colors" placeholder="MM/YY" />

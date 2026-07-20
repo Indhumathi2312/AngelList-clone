@@ -66,7 +66,7 @@ export default function Stats() {
               </div>
               <p>Assets on platform</p>
             </div>
-            <div className="grid grid-cols-2 border-b border-[#5D5337]">
+            <div className="grid grid-cols-1 sm:grid-cols-2 border-b border-[#5D5337]">
               <div className="border-t border-[#5D5337] pb-10 md:pb-12 pt-3 pr-2 sm:pr-4">
                 <div className="flex font-display tracking-[-0.04em] text-[min(max(6.25vw,32px),100px)] leading-[1.1]">
                   <div className="overflow-hidden whitespace-nowrap font-sans-ss01 tracking-tighter">

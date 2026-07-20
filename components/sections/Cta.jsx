@@ -22,17 +22,17 @@ export default function Cta() {
               Latest<br />articles
             </h2>
           </div>
-          <div className="grid mdlg:grid-cols-4 mdlg:gap-4 lg:gap-8">
-            <article className="relative flex w-full flex-1 flex-col justify-between gap-10 border-b border-surface-stroke-primary py-5 mdlg:pb-4 mdlg:pt-0">
-              <div className="group/grid-post relative flex size-full shrink-0 cursor-pointer items-stretch flex-row mdlg:flex-col">
-                <Link aria-label="AngelList Acquires Ark, Combining Fund Administration Software, Banking, and AI in One Platform" href="/blog/angellist-acquires-ark" className="absolute inset-0"></Link><Link aria-label="AngelList Acquires Ark, Combining Fund Administration Software, Banking, and AI in One Platform" href="/blog/angellist-acquires-ark" className="relative shrink-0 self-start overflow-hidden bg-surface-bg-muted w-[20vw] mr-6 mb-0 aspect-square mdlg:aspect-2/1 mdlg:mb-4 mdlg:w-full mdlg:mr-0"><div className="absolute inset-0 size-full transition-[scale,filter] duration-500 group-hover/grid-post:scale-100 group-hover/grid-post:duration-600 motion-safe:scale-[1.04]">
-                  <Image alt="" width="3600" height="1800" style={{ color: 'transparent' }} src={img1} className="size-full object-cover object-center hidden mdlg:block" /><Image alt="" width="1208" height="1200" style={{ color: 'transparent' }} src={img2} className="size-full object-cover object-center mdlg:hidden" /></div></Link>
-                <div className="relative flex w-full flex-col items-start mdlg:h-full">
+          <div className="grid lg:grid-cols-4 lg:gap-4 lg:gap-8">
+            <article className="relative flex w-full flex-1 flex-col justify-between gap-10 border-b border-surface-stroke-primary py-5 lg:pb-4 lg:pt-0">
+              <div className="group/grid-post relative flex size-full shrink-0 cursor-pointer items-stretch flex-row lg:flex-col">
+                <Link aria-label="AngelList Acquires Ark, Combining Fund Administration Software, Banking, and AI in One Platform" href="/blog/angellist-acquires-ark" className="absolute inset-0"></Link><Link aria-label="AngelList Acquires Ark, Combining Fund Administration Software, Banking, and AI in One Platform" href="/blog/angellist-acquires-ark" className="relative shrink-0 self-start overflow-hidden bg-surface-bg-muted w-[20vw] mr-6 mb-0 aspect-square lg:aspect-2/1 lg:mb-4 lg:w-full lg:mr-0"><div className="absolute inset-0 size-full transition-[scale,filter] duration-500 group-hover/grid-post:scale-100 group-hover/grid-post:duration-600 motion-safe:scale-[1.04]">
+                  <Image alt="" width="3600" height="1800" style={{ color: 'transparent' }} src={img1} className="size-full object-cover object-center hidden lg:block" /><Image alt="" width="1208" height="1200" style={{ color: 'transparent' }} src={img2} className="size-full object-cover object-center lg:hidden" /></div></Link>
+                <div className="relative flex w-full flex-col items-start lg:h-full">
                   <Link aria-label="AngelList Acquires Ark, Combining Fund Administration Software, Banking, and AI in One Platform" href="/blog/angellist-acquires-ark" className="absolute inset-0"></Link><Link href="/blog/category/product-news" className="relative inline-flex grow-0 items-center gap-1 self-start rounded-sm font-sans whitespace-nowrap text-[0.75rem] [&amp;_svg]:pointer-events-none [&amp;_svg]:size-3 [&amp;_svg]:shrink-0 bg-tag-bg text-tag-text [[href]]:hover:bg-tag-hover-bg [[href]]:hover:text-tag-hover-text h-6.5 px-2 md:mb-2">Product News</Link><Link href="/blog/angellist-acquires-ark" className="flex flex-1 flex-col justify-between"><h3 className="mt-2 text-body-500 transition-colors duration-200 group-hover/grid-post:text-surface-text-muted">
                     AngelList Acquires Ark, Combining Fund Administration
                     Software, Banking, and AI in One Platform
                   </h3>
-                    <div className="text-eyebrow mt-2 mdlg:mt-10">
+                    <div className="text-eyebrow mt-2 lg:mt-10">
                       <span className="text-surface-text-muted">Jul 16, 2026{/*   */}
                         — </span>4{/*   */}
                       min read
@@ -40,16 +40,16 @@ export default function Cta() {
                 </div>
               </div>
             </article>
-            <article className="relative flex w-full flex-1 flex-col justify-between gap-10 border-b border-surface-stroke-primary py-5 mdlg:pb-4 mdlg:pt-0">
-              <div className="group/grid-post relative flex size-full shrink-0 cursor-pointer items-stretch flex-row mdlg:flex-col">
-                <Link aria-label="Designing Accounting Transactions as First-Class Domain Events" href="/blog/designing-accounting-transactions-as-first-class-domain-events" className="absolute inset-0"></Link><Link aria-label="Designing Accounting Transactions as First-Class Domain Events" href="/blog/designing-accounting-transactions-as-first-class-domain-events" className="relative shrink-0 self-start overflow-hidden bg-surface-bg-muted w-[20vw] mr-6 mb-0 aspect-square mdlg:aspect-2/1 mdlg:mb-4 mdlg:w-full mdlg:mr-0"><div className="absolute inset-0 size-full transition-[scale,filter] duration-500 group-hover/grid-post:scale-100 group-hover/grid-post:duration-600 motion-safe:scale-[1.04]">
-                  <Image alt="" width="3600" height="1800" style={{ color: 'transparent' }} src={img3} className="size-full object-cover object-center hidden mdlg:block" /><Image alt="" width="1280" height="1280" style={{ color: 'transparent' }} src={img4} className="size-full object-cover object-center mdlg:hidden" /></div></Link>
-                <div className="relative flex w-full flex-col items-start mdlg:h-full">
+            <article className="relative flex w-full flex-1 flex-col justify-between gap-10 border-b border-surface-stroke-primary py-5 lg:pb-4 lg:pt-0">
+              <div className="group/grid-post relative flex size-full shrink-0 cursor-pointer items-stretch flex-row lg:flex-col">
+                <Link aria-label="Designing Accounting Transactions as First-Class Domain Events" href="/blog/designing-accounting-transactions-as-first-class-domain-events" className="absolute inset-0"></Link><Link aria-label="Designing Accounting Transactions as First-Class Domain Events" href="/blog/designing-accounting-transactions-as-first-class-domain-events" className="relative shrink-0 self-start overflow-hidden bg-surface-bg-muted w-[20vw] mr-6 mb-0 aspect-square lg:aspect-2/1 lg:mb-4 lg:w-full lg:mr-0"><div className="absolute inset-0 size-full transition-[scale,filter] duration-500 group-hover/grid-post:scale-100 group-hover/grid-post:duration-600 motion-safe:scale-[1.04]">
+                  <Image alt="" width="3600" height="1800" style={{ color: 'transparent' }} src={img3} className="size-full object-cover object-center hidden lg:block" /><Image alt="" width="1280" height="1280" style={{ color: 'transparent' }} src={img4} className="size-full object-cover object-center lg:hidden" /></div></Link>
+                <div className="relative flex w-full flex-col items-start lg:h-full">
                   <Link aria-label="Designing Accounting Transactions as First-Class Domain Events" href="/blog/designing-accounting-transactions-as-first-class-domain-events" className="absolute inset-0"></Link><Link href="/blog/category/engineering" className="relative inline-flex grow-0 items-center gap-1 self-start rounded-sm font-sans whitespace-nowrap text-[0.75rem] [&amp;_svg]:pointer-events-none [&amp;_svg]:size-3 [&amp;_svg]:shrink-0 bg-tag-bg text-tag-text [[href]]:hover:bg-tag-hover-bg [[href]]:hover:text-tag-hover-text h-6.5 px-2 md:mb-2">Engineering</Link><Link href="/blog/designing-accounting-transactions-as-first-class-domain-events" className="flex flex-1 flex-col justify-between"><h3 className="mt-2 text-body-500 transition-colors duration-200 group-hover/grid-post:text-surface-text-muted">
                     Designing Accounting Transactions as First-Class
                     Domain Events
                   </h3>
-                    <div className="text-eyebrow mt-2 mdlg:mt-10">
+                    <div className="text-eyebrow mt-2 lg:mt-10">
                       <span className="text-surface-text-muted">Jul 8, 2026{/*   */}
                         — </span>20{/*   */}
                       min read
@@ -57,15 +57,15 @@ export default function Cta() {
                 </div>
               </div>
             </article>
-            <article className="relative flex w-full flex-1 flex-col justify-between gap-10 border-b border-surface-stroke-primary py-5 mdlg:pb-4 mdlg:pt-0">
-              <div className="group/grid-post relative flex size-full shrink-0 cursor-pointer items-stretch flex-row mdlg:flex-col">
-                <Link aria-label="Teaching a Spreadsheet Engine to Teach Itself" href="/blog/teaching-a-spreadsheet-engine-to-teach-itself" className="absolute inset-0"></Link><Link aria-label="Teaching a Spreadsheet Engine to Teach Itself" href="/blog/teaching-a-spreadsheet-engine-to-teach-itself" className="relative shrink-0 self-start overflow-hidden bg-surface-bg-muted w-[20vw] mr-6 mb-0 aspect-square mdlg:aspect-2/1 mdlg:mb-4 mdlg:w-full mdlg:mr-0"><div className="absolute inset-0 size-full transition-[scale,filter] duration-500 group-hover/grid-post:scale-100 group-hover/grid-post:duration-600 motion-safe:scale-[1.04]">
-                  <Image alt="" width="3600" height="1800" style={{ color: 'transparent' }} src={img5} className="size-full object-cover object-center hidden mdlg:block" /><Image alt="" width="1280" height="1280" style={{ color: 'transparent' }} src={img6} className="size-full object-cover object-center mdlg:hidden" /></div></Link>
-                <div className="relative flex w-full flex-col items-start mdlg:h-full">
+            <article className="relative flex w-full flex-1 flex-col justify-between gap-10 border-b border-surface-stroke-primary py-5 lg:pb-4 lg:pt-0">
+              <div className="group/grid-post relative flex size-full shrink-0 cursor-pointer items-stretch flex-row lg:flex-col">
+                <Link aria-label="Teaching a Spreadsheet Engine to Teach Itself" href="/blog/teaching-a-spreadsheet-engine-to-teach-itself" className="absolute inset-0"></Link><Link aria-label="Teaching a Spreadsheet Engine to Teach Itself" href="/blog/teaching-a-spreadsheet-engine-to-teach-itself" className="relative shrink-0 self-start overflow-hidden bg-surface-bg-muted w-[20vw] mr-6 mb-0 aspect-square lg:aspect-2/1 lg:mb-4 lg:w-full lg:mr-0"><div className="absolute inset-0 size-full transition-[scale,filter] duration-500 group-hover/grid-post:scale-100 group-hover/grid-post:duration-600 motion-safe:scale-[1.04]">
+                  <Image alt="" width="3600" height="1800" style={{ color: 'transparent' }} src={img5} className="size-full object-cover object-center hidden lg:block" /><Image alt="" width="1280" height="1280" style={{ color: 'transparent' }} src={img6} className="size-full object-cover object-center lg:hidden" /></div></Link>
+                <div className="relative flex w-full flex-col items-start lg:h-full">
                   <Link aria-label="Teaching a Spreadsheet Engine to Teach Itself" href="/blog/teaching-a-spreadsheet-engine-to-teach-itself" className="absolute inset-0"></Link><Link href="/blog/category/engineering" className="relative inline-flex grow-0 items-center gap-1 self-start rounded-sm font-sans whitespace-nowrap text-[0.75rem] [&amp;_svg]:pointer-events-none [&amp;_svg]:size-3 [&amp;_svg]:shrink-0 bg-tag-bg text-tag-text [[href]]:hover:bg-tag-hover-bg [[href]]:hover:text-tag-hover-text h-6.5 px-2 md:mb-2">Engineering</Link><Link href="/blog/teaching-a-spreadsheet-engine-to-teach-itself" className="flex flex-1 flex-col justify-between"><h3 className="mt-2 text-body-500 transition-colors duration-200 group-hover/grid-post:text-surface-text-muted">
                     Teaching a Spreadsheet Engine to Teach Itself
                   </h3>
-                    <div className="text-eyebrow mt-2 mdlg:mt-10">
+                    <div className="text-eyebrow mt-2 lg:mt-10">
                       <span className="text-surface-text-muted">Jun 26, 2026{/*   */}
                         — </span>8{/*   */}
                       min read
@@ -73,15 +73,15 @@ export default function Cta() {
                 </div>
               </div>
             </article>
-            <article className="relative flex w-full flex-1 flex-col justify-between gap-10 border-b border-surface-stroke-primary py-5 mdlg:pb-4 mdlg:pt-0">
-              <div className="group/grid-post relative flex size-full shrink-0 cursor-pointer items-stretch flex-row mdlg:flex-col">
-                <Link aria-label="Everyone Is a Data Analyst Now" href="/blog/everyone-is-a-data-analyst-now" className="absolute inset-0"></Link><Link aria-label="Everyone Is a Data Analyst Now" href="/blog/everyone-is-a-data-analyst-now" className="relative shrink-0 self-start overflow-hidden bg-surface-bg-muted w-[20vw] mr-6 mb-0 aspect-square mdlg:aspect-2/1 mdlg:mb-4 mdlg:w-full mdlg:mr-0"><div className="absolute inset-0 size-full transition-[scale,filter] duration-500 group-hover/grid-post:scale-100 group-hover/grid-post:duration-600 motion-safe:scale-[1.04]">
-                  <Image alt="" width="3600" height="1800" style={{ color: 'transparent' }} src={img7} className="size-full object-cover object-center hidden mdlg:block" /><Image alt="" width="1280" height="1280" style={{ color: 'transparent' }} src={img8} className="size-full object-cover object-center mdlg:hidden" /></div></Link>
-                <div className="relative flex w-full flex-col items-start mdlg:h-full">
+            <article className="relative flex w-full flex-1 flex-col justify-between gap-10 border-b border-surface-stroke-primary py-5 lg:pb-4 lg:pt-0">
+              <div className="group/grid-post relative flex size-full shrink-0 cursor-pointer items-stretch flex-row lg:flex-col">
+                <Link aria-label="Everyone Is a Data Analyst Now" href="/blog/everyone-is-a-data-analyst-now" className="absolute inset-0"></Link><Link aria-label="Everyone Is a Data Analyst Now" href="/blog/everyone-is-a-data-analyst-now" className="relative shrink-0 self-start overflow-hidden bg-surface-bg-muted w-[20vw] mr-6 mb-0 aspect-square lg:aspect-2/1 lg:mb-4 lg:w-full lg:mr-0"><div className="absolute inset-0 size-full transition-[scale,filter] duration-500 group-hover/grid-post:scale-100 group-hover/grid-post:duration-600 motion-safe:scale-[1.04]">
+                  <Image alt="" width="3600" height="1800" style={{ color: 'transparent' }} src={img7} className="size-full object-cover object-center hidden lg:block" /><Image alt="" width="1280" height="1280" style={{ color: 'transparent' }} src={img8} className="size-full object-cover object-center lg:hidden" /></div></Link>
+                <div className="relative flex w-full flex-col items-start lg:h-full">
                   <Link aria-label="Everyone Is a Data Analyst Now" href="/blog/everyone-is-a-data-analyst-now" className="absolute inset-0"></Link><Link href="/blog/category/engineering" className="relative inline-flex grow-0 items-center gap-1 self-start rounded-sm font-sans whitespace-nowrap text-[0.75rem] [&amp;_svg]:pointer-events-none [&amp;_svg]:size-3 [&amp;_svg]:shrink-0 bg-tag-bg text-tag-text [[href]]:hover:bg-tag-hover-bg [[href]]:hover:text-tag-hover-text h-6.5 px-2 md:mb-2">Engineering</Link><Link href="/blog/everyone-is-a-data-analyst-now" className="flex flex-1 flex-col justify-between"><h3 className="mt-2 text-body-500 transition-colors duration-200 group-hover/grid-post:text-surface-text-muted">
                     Everyone Is a Data Analyst Now
                   </h3>
-                    <div className="text-eyebrow mt-2 mdlg:mt-10">
+                    <div className="text-eyebrow mt-2 lg:mt-10">
                       <span className="text-surface-text-muted">Jun 10, 2026{/*   */}
                         — </span>15{/*   */}
                       min read
